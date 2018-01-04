@@ -13,5 +13,5 @@ public interface BaseRepository<T, ID extends Serializable> extends Repository<T
 
     Optional<T> deleteById(ID id);
 
-    List<T> renameAttributeContainsText(String attributeName, String text);
+     List<T> findByAttributeContainsText(String attributeName, String text);
 }

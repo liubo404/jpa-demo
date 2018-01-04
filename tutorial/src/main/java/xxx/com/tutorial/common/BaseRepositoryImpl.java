@@ -42,7 +42,7 @@ public class BaseRepositoryImpl<T, ID extends Serializable>
 
     @Transactional
     @Override
-    public List<T> renameAttributeContainsText(String attributeName, String text) {
+    public List<T> findByAttributeContainsText(String attributeName, String text) {
         CriteriaBuilder builder = entityManager.getCriteriaBuilder();
         CriteriaQuery<T> cQuery = builder.createQuery(getDomainClass());
         Root<T> root = cQuery.from(getDomainClass());
