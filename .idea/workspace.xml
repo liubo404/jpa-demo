@@ -78,8 +78,8 @@
       <file leaf-file-name="TodoRepositoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorial/src/test/java/xxx/com/tutorial/repository/TodoRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="460">
+              <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -657,7 +657,7 @@
       <workItem from="1514876460409" duration="17083000" />
       <workItem from="1514959577737" duration="3606000" />
       <workItem from="1514981941496" duration="9247000" />
-      <workItem from="1515053198830" duration="6035000" />
+      <workItem from="1515053198830" duration="6082000" />
     </task>
     <task id="LOCAL-00001" summary="delete factory bean">
       <created>1515058602449</created>
@@ -687,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515060362013</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="same issue there, the automatic boot component scanning&#10;add the following to your test:&#10;@ComponentScan(basePackageClasses = JpaConfig.class)">
+      <created>1515060393124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515060393124</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -723,7 +730,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35971000" />
+    <option name="totallyTimeSpent" value="36018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-1088" width="1936" height="1096" extended-state="6" />
@@ -1043,8 +1050,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial/src/test/java/xxx/com/tutorial/repository/TodoRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="460">
+          <caret line="74" column="1" lean-forward="true" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
           <folding />
         </state>
       </provider>
