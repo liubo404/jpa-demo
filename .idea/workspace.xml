@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e39e6a0-91fd-43ea-abb3-78e348d59bfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial/src/main/java/xxx/com/tutorial/StartupRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/target/classes/xxx/com/tutorial/common/BaseRepository.class" afterPath="$PROJECT_DIR$/tutorial/target/classes/xxx/com/tutorial/common/BaseRepository.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/target/classes/xxx/com/tutorial/common/BaseRepositoryImpl.class" afterPath="$PROJECT_DIR$/tutorial/target/classes/xxx/com/tutorial/common/BaseRepositoryImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/target/classes/xxx/com/tutorial/config/JpaConfig.class" afterPath="$PROJECT_DIR$/tutorial/target/classes/xxx/com/tutorial/config/JpaConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/src/main/java/xxx/com/tutorial/Application.java" afterPath="$PROJECT_DIR$/tutorial/src/main/java/xxx/com/tutorial/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/src/main/java/xxx/com/tutorial/common/BaseRepository.java" afterPath="$PROJECT_DIR$/tutorial/src/main/java/xxx/com/tutorial/common/BaseRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/src/main/java/xxx/com/tutorial/common/BaseRepositoryImpl.java" afterPath="$PROJECT_DIR$/tutorial/src/main/java/xxx/com/tutorial/common/BaseRepositoryImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorial/src/test/java/xxx/com/tutorial/repository/TodoRepositoryTest.java" afterPath="$PROJECT_DIR$/tutorial/src/test/java/xxx/com/tutorial/repository/TodoRepositoryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,8 +78,8 @@
       <file leaf-file-name="TodoRepositoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tutorial/src/test/java/xxx/com/tutorial/repository/TodoRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="213">
+              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,6 +155,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -661,7 +657,7 @@
       <workItem from="1514876460409" duration="17083000" />
       <workItem from="1514959577737" duration="3606000" />
       <workItem from="1514981941496" duration="9247000" />
-      <workItem from="1515053198830" duration="5967000" />
+      <workItem from="1515053198830" duration="6035000" />
     </task>
     <task id="LOCAL-00001" summary="delete factory bean">
       <created>1515058602449</created>
@@ -684,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515058800605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="same issue there, the automatic boot component scanning&#10;add the following to your test:&#10;@ComponentScan(basePackageClasses = JpaConfig.class)">
+      <created>1515060362013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1515060362013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,7 +723,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35903000" />
+    <option name="totallyTimeSpent" value="35971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-1088" width="1936" height="1096" extended-state="6" />
@@ -769,7 +772,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete factory bean" />
     <MESSAGE value="add basePackageClasses=TodoRepository.class to your @EnabledJpaRepositories annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basePackageClasses=TodoRepository.class to your @EnabledJpaRepositories annotation" />
+    <MESSAGE value="same issue there, the automatic boot component scanning&#10;add the following to your test:&#10;@ComponentScan(basePackageClasses = JpaConfig.class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="same issue there, the automatic boot component scanning&#10;add the following to your test:&#10;@ComponentScan(basePackageClasses = JpaConfig.class)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1039,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorial/src/test/java/xxx/com/tutorial/repository/TodoRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="213">
+          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
