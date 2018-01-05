@@ -1,6 +1,7 @@
 package xxx.com.tutorial.common;
 
 import org.springframework.data.jpa.repository.support.JpaEntityInformation;
+import org.springframework.data.jpa.repository.support.QueryDslJpaRepository;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -18,7 +19,7 @@ import java.util.Optional;
  * Datetime: 2018/1/410:42
  */
 public class BaseRepositoryImpl<T, ID extends Serializable>
-        extends SimpleJpaRepository<T, ID> implements BaseRepository<T, ID> {
+        extends   QueryDslJpaRepository<T, ID> implements BaseRepository<T, ID> {
 
     private final EntityManager entityManager;
 
@@ -46,8 +47,7 @@ public class BaseRepositoryImpl<T, ID extends Serializable>
         CriteriaBuilder builder = entityManager.getCriteriaBuilder();
         CriteriaQuery<T> cQuery = builder.createQuery(getDomainClass());
         Root<T> root = cQuery.from(getDomainClass());
-        cQuery
-                .select(root)
+        cQuery.select(root)
                 .where(builder
                         .like(root.<String>get(attributeName), "%" + text + "%"));
         TypedQuery<T> query = entityManager.createQuery(cQuery);
