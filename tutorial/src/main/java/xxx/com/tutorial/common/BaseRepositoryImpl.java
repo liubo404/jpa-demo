@@ -19,7 +19,7 @@ import java.util.Optional;
  * Datetime: 2018/1/410:42
  */
 public class BaseRepositoryImpl<T, ID extends Serializable>
-        extends   QueryDslJpaRepository<T, ID> implements BaseRepository<T, ID> {
+        extends   SimpleJpaRepository<T, ID> implements BaseRepository<T, ID> {
 
     private final EntityManager entityManager;
 

@@ -2,6 +2,7 @@ package xxx.com.tutorial;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import xxx.com.tutorial.db.MultipleDataSource;
 import xxx.com.tutorial.domain.Todo;
 import xxx.com.tutorial.repository.TodoRepository;
 
@@ -19,7 +20,7 @@ public class StartupRunner implements CommandLineRunner {
     @Override
     public void run(String... strings) throws Exception {
         todoRepository.findAll();
-
+        MultipleDataSource.setDataSourceKey("ds0");
         List<Todo> students
                 = todoRepository.findByAttributeContainsText("name", "test");
     }
