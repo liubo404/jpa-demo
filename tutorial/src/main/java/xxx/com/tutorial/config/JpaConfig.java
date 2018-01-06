@@ -78,26 +78,5 @@ public class JpaConfig {
 
         return emfb;
     }
-    /*
 
-    @Bean
-    LocalContainerEntityManagerFactoryBean myFactory(){
-        HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
-        jpaVendorAdapter.setGenerateDdl(true);
-        jpaVendorAdapter.setDatabasePlatform("org.hibernate.dialect.MySQL5Dialect");
-
-
-        LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
-
-        factoryBean.setDataSource(dynamicDatasource());
-        factoryBean.setJpaVendorAdapter(jpaVendorAdapter);
-        factoryBean.setPackagesToScan("xxx.com.tutorial.domain");
-
-        return factoryBean;
-    }
-
-    @Bean
-    PlatformTransactionManager customerTransactionManager() {
-        return new JpaTransactionManager(myFactory().getObject());
-    }*/
 }

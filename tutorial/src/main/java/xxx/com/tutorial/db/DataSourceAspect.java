@@ -13,7 +13,8 @@ import java.lang.reflect.Method;
 @Component
 public class DataSourceAspect {
 
-    private final static Logger logger= Logger.getLogger(DataSourceAspect.class);
+    private final static Logger logger = Logger.getLogger(DataSourceAspect.class);
+
     /**
      * 拦截目标方法，获取由@DataSource指定的数据源标识，设置到线程存储中以便切换数据源
      *
@@ -76,6 +77,7 @@ public class DataSourceAspect {
 
     /**
      * 处理完后，将数据源设置回默认数据源
+     *
      * @param clazz
      * @param method
      */
